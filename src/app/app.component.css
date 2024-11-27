@@ -1,0 +1,32 @@
+.custom-card {
+    max-width: 900px;
+    width: 100%;
+    margin: auto;
+    padding: 20px;
+    background-color: #075064; 
+    border-radius: 0px;
+    border-color: none;
+  }
+
+  .card-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .card-paragraph {
+    font-size: 18px;
+    color: #000000;
+  }
+
+  .btn {
+    background-color: #800000;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+  }
+
+  .btn:hover {
+    background-color: #660000; 
+  }
