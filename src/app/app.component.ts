@@ -8,10 +8,10 @@ import { Router } from '@angular/router';
 })
 export class AppComponent implements OnInit{
   constructor(private router: Router) {}
-  ngOnInit(): void {
-      
-  }
+
+  ngOnInit(): void {}
+
   babyInPicture(){
-    this.router.navigate(['baby-in-picture']);
+    this.router.navigate(['/babyinpicture']);
   }
 }
