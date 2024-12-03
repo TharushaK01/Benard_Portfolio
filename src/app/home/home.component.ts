@@ -11,7 +11,4 @@ export class HomeComponent implements OnInit{
   ngOnInit(): void {
       
   }
-  babyInPicture(){
-    this.router.navigate(['/baby-in-picture']);
-  }
 }
