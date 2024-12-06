@@ -11,7 +11,4 @@ export class AppComponent implements OnInit{
 
   ngOnInit(): void {}
 
-  babyInPicture(){
-    this.router.navigate(['/babyinpicture']);
-  }
 }
