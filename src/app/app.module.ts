@@ -6,6 +6,8 @@ import { AppComponent } from './app.component';
 import { HomeComponent } from './home/home.component';
 import { BabyinpitctureComponent } from './babyinpitcture/babyinpitcture.component';
 import { CalenderComponent } from './calender/calender.component';
+import { FullCalendarModule } from '@fullcalendar/angular';
+
 
 @NgModule({
   declarations: [
@@ -16,11 +18,14 @@ import { CalenderComponent } from './calender/calender.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    FullCalendarModule
   ],
   providers: [
     provideClientHydration()
   ],
   bootstrap: [AppComponent]
+ 
 })
-export class AppModule { }
+export class AppModule { 
+}
